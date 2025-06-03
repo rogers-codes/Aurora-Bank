@@ -35,7 +35,7 @@
                 if (CPFdigitado != CPFusuario) {
                     tentativas--;
                     if (tentativas == 0) {
-                        System.out.println("Conta bloqueada por excesso de tentatativas, Aurora bank encerrado.");
+                        System.out.println("Conta bloqueada por tentatativas em excesso, Aurora bank encerrado.");
                         return;
                     }
                 }
